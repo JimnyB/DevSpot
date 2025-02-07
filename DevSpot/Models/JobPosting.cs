@@ -6,6 +6,7 @@ namespace DevSpot.Models
 {
     public class JobPosting
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string Id { get; set; }
 
         [Required]
